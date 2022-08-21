@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: teal;
+    display: block;
+}
+
+h1 {
+    padding: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: rebeccapurple;
+    padding: 5px;
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+    text-indent: 160px;
+}
+
+table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    background-color: white;
+}
+
+thead {
+    background-color: plum;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid darkorchid;
+    margin: 5px auto;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+}
+
+td {
+    border-top: 1px solid darkorchid;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
